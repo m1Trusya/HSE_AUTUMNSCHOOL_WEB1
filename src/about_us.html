@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>мой проект</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class = 'header_items'>
+            <img class = 'header_logo' src="img/logo.jpg" alt="homeet HSE">
+        </div>
+        <div class = 'header_items'>
+            <button class = "button-nuv1">Выйти из аккаунта</button>
+        </div>
+    </header>
+    <main>
+        <div class="main-nuv">
+            <a href="#" class = 'button-nuv1 button_a'>На главную</a>
+            <p><span class = "h">Создание профиля</span> 
+                <span class="additional">&nbsp;&nbsp;&nbsp;/ &nbsp; О себе </span></p>
+        </div>
+        <div class="main_section">
+            <div class="section-items1">
+                <div class = 'avatar'>
+                    <h3>Аватар профиля</h3>
+                    <button class="special_button">Загрузить</button>
+                    <p><span class = 'additional_add'>Загрузите фотографию весом не более 10 мб</span></p>
+                </div>
+                <div class = 'forms_about_me'>
+                    <form action="">
+                        <div class = 'form_text name form_element'>
+                            <label for="name" class = 'label_for_text'>Имя и фамилия</label>
+                            <input type="text" id='name' name = 'student_name' placeholder="Дима Фуфелов">
+                        </div> 
+
+                        <div class = 'age  form_element'>
+                            <div class = 'form_radio'>
+                                <input type="radio" id = 'men' value = 'men' name = 'gender'  class = 'form_radio'>
+                                <label for="men">Парень</label>
+                            </div>
+                            <div class = 'form_radio'>
+                                <input type="radio" id = 'women' value = 'women' name = 'gender' class = 'form_radio'>
+                                <label for="women">Девушка</label>
+                            </div>
+                        </div>
+
+                        <div class = 'birthday  form_element'>
+                            <input type="date" placeholder="День рождения">
+                        </div>
+
+                        <div class = 'form_text telegram form_element'>
+                            <input type="text" id='tg' name = 'tg' placeholder="Телеграм">
+                        </div>
+
+                        <div class = 'tlpthn form_text form_element'>
+                            <label for="telephone" class = 'label_for_text'>Номер телефона</label>
+                            <input type="text" id='tlphn' name = 'Tlphn' placeholder="">
+                        </div>
+
+                        <div class = 'form_area form_text form_element' >
+                            <label for="about_me" class='label_for_text'>О себе</label>
+                            <input type="textarea" id = 'about_me' name = 'about_me' placeholder="Мне нравится дебоширить, ломать мебель, устраивать пьянки и вообще капец">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="section-items2">
+                <div div = 'page_text'>
+                    <p><span>Так будет выглядеть твоя будущая страница</span></p>
+                </div>
+                <div class = 'page'>
+                    <div class = 'page_item'>
+                        <div class="page_1">
+                            <div class="page_ava">
+
+                            </div>
+                            <div>
+                                <a href="#" class = 'page_news'>Показать новости</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page_information">
+                        <h2>
+                            Саша Фефелов
+                        </h2>
+                        <div class="empty_text">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="who_are_you">
+                    <div class="text_who">
+                        <h3>
+                            Мы совсем про тебя ничего не знаем
+                        </h3>
+                        <p>Расскажи о себе.</p>
+                        <p>Люди пишут тем, кому доверяют. Тем более при поиске соседа.</p>
+                    </div>
+                    <div class="img_who">
+                        <img width = "60%"src="../src/img/emojy.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="continue-section">
+            <button class="special_button">Продолжить</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_information">
+            <h2><span>Support@homeet.com</span></h2>
+            <p>Техническая поддежрка</p>
+            <div class ='footer_nuv'>
+                <div class="footer_nuv_links">
+                    <a href="#">О сервисе</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Политика конфинденциальности</a>
+                </div>
+                <div class="footer_nuv_icons">
+                    <img src="../src/img/icon_tg.jpg" alt="">
+                    <img src="../src/img/icon_vk.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer_text">
+            <p>Предложение не является публичной афертой.</p>
+            <p>Сервис не несет ответственности за действия пользователей, достоверность информации и т.д.</p>
+        </div>
+    </footer>
+</body>
+</html>
